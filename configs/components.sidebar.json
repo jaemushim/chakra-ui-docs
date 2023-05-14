@@ -336,6 +336,19 @@
               "path": "/docs/components/transitions"
             }
           ]
+        },
+        {
+          "title": "Custom",
+          "path": "/docs/components/custom",
+          "open": true,
+          "sort": true,
+          "summarize": true,
+          "routes": [
+            {
+              "title": "Section",
+              "path": "/docs/components/section"
+            }
+          ]
         }
       ]
     }
