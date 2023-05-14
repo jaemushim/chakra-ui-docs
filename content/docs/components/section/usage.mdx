@@ -3,24 +3,30 @@ id: section
 category: 'data-display'
 title: Section
 version: '1.0'
-package: 'custom'
 description:
-  Section is a flexible component used to group and display content in a clear and
-  concise format.
+
 ---
 
 ## Import
 
-111 zzzzzzzChakra UI exports 4 components to help you create a Section.
-
 ```js
-import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
+import {
+    Section,
+    SectionBody,
+    SectionDivider,
+    SectionHeader,
+    SectionTitle,
+} from '@components/ui/Section';
 ```
 
-- **Card:** The parent wrapper that provides context for its children.
-- **CardHeader:** The wrapper that contains a card's header.
-- **CardBody:** The wrapper that houses the card's main content.
-- **CardFooter:** The footer that houses the card actions.
+- **Section:** wrapper
+- **SectionHeader:** 헤더
+- **SectionTitle:** 제목 (click tracking 기능에 사용되므로 필수) <br/>
+시각적으로 필요하지않으면 SectionTitle 컴포넌트 안에 `<VisuallyHidden>제목</VisuallyHidden>` 넣는다.
+- **SectionReadMoreButton:** 더보기 버튼
+- **SectionBody:** 바디
+- **SectionDivider:** 디바이더
+
 
 ## Usage
 
