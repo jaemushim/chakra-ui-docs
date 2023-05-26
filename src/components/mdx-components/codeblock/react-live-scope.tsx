@@ -23,6 +23,17 @@ import * as ReactTable from 'react-table'
 import CircleIcon from '../../docs/icon'
 import { BiLike, BiChat, BiShare } from 'react-icons/bi'
 import { BsThreeDotsVertical } from 'react-icons/bs'
+import { Section,SectionHeader, SectionBody,SectionTitle,SectionReadMoreButton,SectionDivider } from 'src/components/medigate-ui/section'
+
+const SectionComponent = {
+  Section,
+  SectionHeader,
+  SectionTitle,
+  SectionReadMoreButton,
+  SectionBody,
+  SectionDivider
+
+}
 
 const reactIcons = {
   MdSettings,
@@ -58,6 +69,7 @@ const ReactLiveScope = {
   ...Icons,
   ...Loaders,
   ...reactIcons,
+  ...SectionComponent,
   StarIcon,
   FocusLock,
   Lorem,
